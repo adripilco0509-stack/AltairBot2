@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ode SYSTEM "content.dtd">
+<ode xmlns="http://www.intef.es/xsd/ode" version="2.0">
+<userPreferences>
+  <userPreference>
+    <key>theme</key>
+    <value>neo</value>
+  </userPreference>
+</userPreferences>
+<odeResources>
+  <odeResource>
+    <key>odeId</key>
+    <value>20260607205645GGC69D</value>
+  </odeResource>
+  <odeResource>
+    <key>odeVersionId</key>
+    <value>20260607205645ADET6R</value>
+  </odeResource>
+  <odeResource>
+    <key>exe_version</key>
+    <value>4.0.0</value>
+  </odeResource>
+</odeResources>
+<odeProperties>
+  <odeProperty>
+    <key>pp_title</key>
+    <value>Proyecto de matemáticas</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_subtitle</key>
+    <value>ArtairBot</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_author</key>
+    <value>Adriana Pilco, Anahí Toaquiza, Boris Paguay, Jeremias Cabascango</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_description</key>
+    <value> En este proyecto realizamos la construcción de nuestro robot con sensores, utilizando materiales tanto reciclados como tecnológicos </value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_lang</key>
+    <value>es</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_license</key>
+    <value>creative commons: attribution - share alike 4.0</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_licenseUrl</key>
+    <value>https://creativecommons.org/licenses/by-sa/4.0/</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_theme</key>
+    <value>neo</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_exelearning_version</key>
+    <value>v4.0.0</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_modified</key>
+    <value>1780883780702</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addExeLink</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addPagination</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addSearchBox</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addAccessibilityToolbar</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addMathJax</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>exportSource</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_globalFont</key>
+    <value>default</value>
+  </odeProperty>
+</odeProperties>
+<odeNavStructures>
+<odeNavStructure>
+  <odePageId>88c922d9-9428-48d5-b303-ed44703552ff</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Introduccion</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Introduccion</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Introduccion</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>88c922d9-9428-48d5-b303-ed44703552ff</odePageId>
+      <odeBlockId>block-1780791032418-bbbv1q0a7</odeBlockId>
+      <blockName>AltairBot</blockName>
+      <iconName>technology</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>88c922d9-9428-48d5-b303-ed44703552ff</odePageId>
+          <odeBlockId>block-1780791032418-bbbv1q0a7</odeBlockId>
+          <odeIdeviceId>idevice-1780791032416-6a5ahrkc7</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <div class="main-content">
+<div class="main-content">
+<div class="header-title">AltairBot</div>
+<div class="grid-container">
+<div class="card">
+<div class="card-title">1. ¿Qué es AltairBot? <span class="flete-icon">▲</span></div>
+<p><span style="color: #000000;"><strong>AltairBot</strong> es un robot seguidor de luz su funcionamiento se basa en detectar la luz mediante las fotoresistencias y seguirla en su entorno.</span></p>
+<div class="card" style="border-left-color: var(--amarillo);">
+<div class="card-title">2. Componentes Electrónicos <span class="flete-icon">▲</span></div>
+<p><span style="color: #000000;">Para la construcción de AltairBot se utilizaron materiales de fácil acceso y de alta calidad para garantizar la potencia:</span></p>
+<ul>
+<li>Circuitos Integrados: <span>1x ULN2803 (Driver de compuertas inversoras)</span></li>
+<li>Sensores: <span>2x Fotorresistencias (LDR)</span></li>
+<li>Actuadores: <span>2x Motores de Corriente</span></li>
+<li>Resistencias fijas: <span>2x (Para estabilización de señal negativa)</span></li>
+<li>Alimentación: <span>4x Baterías AAA</span></li>
+<li>Alimentación: <span>1x Portapilas (de 4 pilas conectadas en serie)</span></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<style>
+        /* Estilos Globales basados en la paleta de colores de la imagen */
+        :root {
+            --bg-principal: #f4f6fa;
+            --azul-oscuro: #232274;
+            --morado: #6e25ca;
+            --amarillo: #ffcc00;
+            --blanco: #ffffff;
+            --texto-oscuro: #333333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-principal);
+            color: var(--texto-oscuro);
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* --- MENÚ LATERAL (Sección Izquierda de la imagen) --- */
+        .sidebar {
+            width: 280px;
+            background-color: var(--azul-oscuro);
+            color: var(--blanco);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            border-top-right-radius: 20px;
+        }
+
+        .menu-header {
+            font-size: 20px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-menu {
+            width: 100%;
+            padding: 12px 15px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn-altair {
+            background-color: var(--amarillo);
+            color: var(--azul-oscuro);
+        }
+
+        .btn-construccion {
+            background-color: transparent;
+            color: var(--blanco);
+        }
+
+        .btn-construccion:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* --- CONTENIDO PRINCIPAL --- */
+        .main-content {
+            flex: 1;
+            padding: 40px;
+            overflow-y: auto;
+        }
+
+        .header-title {
+            text-align: center;
+            font-size: 32px;
+            color: var(--azul-oscuro);
+            margin-bottom: 40px;
+            font-weight: bold;
+        }
+
+        /* --- DIVISIÓN EN 3 PARTES --- */
+        .grid-container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .card {
+            background-color: var(--blanco);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border-left: 5px solid var(--morado);
+        }
+
+        .card-title {
+            font-size: 22px;
+            color: var(--azul-oscuro);
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .flete-icon {
+            font-size: 14px;
+            color: var(--azul-oscuro);
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        li span {
+            font-weight: bold;
+            color: var(--morado);
+        }
+
+        .badge-video {
+            display: inline-block;
+            background-color: var(--azul-oscuro);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .badge-video:hover {
+            background-color: var(--morado);
+        }
+    </style>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1780791032416-6a5ahrkc7","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<div class=\"main-content\">\n<div class=\"main-content\">\n<div class=\"header-title\">AltairBot</div>\n<div class=\"grid-container\">\n<div class=\"card\">\n<div class=\"card-title\">1. ¿Qué es AltairBot? <span class=\"flete-icon\">▲</span></div>\n<p><span style=\"color: #000000;\"><strong>AltairBot</strong> es un robot seguidor de luz su funcionamiento se basa en detectar la luz mediante las fotoresistencias y seguirla en su entorno.</span></p>\n<div class=\"card\" style=\"border-left-color: var(--amarillo);\">\n<div class=\"card-title\">2. Componentes Electrónicos <span class=\"flete-icon\">▲</span></div>\n<p><span style=\"color: #000000;\">Para la construcción de AltairBot se utilizaron materiales de fácil acceso y de alta calidad para garantizar la potencia:</span></p>\n<ul>\n<li>Circuitos Integrados: <span>1x ULN2803 (Driver de compuertas inversoras)</span></li>\n<li>Sensores: <span>2x Fotorresistencias (LDR)</span></li>\n<li>Actuadores: <span>2x Motores de Corriente</span></li>\n<li>Resistencias fijas: <span>2x (Para estabilización de señal negativa)</span></li>\n<li>Alimentación: <span>4x Baterías AAA</span></li>\n<li>Alimentación: <span>1x Portapilas (de 4 pilas conectadas en serie)</span></li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>\n<style>\n        /* Estilos Globales basados en la paleta de colores de la imagen */\n        :root {\n            --bg-principal: #f4f6fa;\n            --azul-oscuro: #232274;\n            --morado: #6e25ca;\n            --amarillo: #ffcc00;\n            --blanco: #ffffff;\n            --texto-oscuro: #333333;\n        }\n\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n        }\n\n        body {\n            background-color: var(--bg-principal);\n            color: var(--texto-oscuro);\n            display: flex;\n            min-height: 100vh;\n        }\n\n        /* --- MENÚ LATERAL (Sección Izquierda de la imagen) --- */\n        .sidebar {\n            width: 280px;\n            background-color: var(--azul-oscuro);\n            color: var(--blanco);\n            padding: 20px;\n            display: flex;\n            flex-direction: column;\n            gap: 20px;\n            border-top-right-radius: 20px;\n        }\n\n        .menu-header {\n            font-size: 20px;\n            font-weight: bold;\n            display: flex;\n            align-items: center;\n            gap: 10px;\n            cursor: pointer;\n            padding-bottom: 20px;\n            border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n        }\n\n        .btn-menu {\n            width: 100%;\n            padding: 12px 15px;\n            border: none;\n            border-radius: 8px;\n            font-size: 16px;\n            font-weight: bold;\n            text-align: left;\n            cursor: pointer;\n            transition: all 0.3s;\n        }\n\n        .btn-altair {\n            background-color: var(--amarillo);\n            color: var(--azul-oscuro);\n        }\n\n        .btn-construccion {\n            background-color: transparent;\n            color: var(--blanco);\n        }\n\n        .btn-construccion:hover {\n            background-color: rgba(255, 255, 255, 0.1);\n        }\n\n        /* --- CONTENIDO PRINCIPAL --- */\n        .main-content {\n            flex: 1;\n            padding: 40px;\n            overflow-y: auto;\n        }\n\n        .header-title {\n            text-align: center;\n            font-size: 32px;\n            color: var(--azul-oscuro);\n            margin-bottom: 40px;\n            font-weight: bold;\n        }\n\n        /* --- DIVISIÓN EN 3 PARTES --- */\n        .grid-container {\n            display: flex;\n            flex-direction: column;\n            gap: 30px;\n        }\n\n        .card {\n            background-color: var(--blanco);\n            border-radius: 15px;\n            padding: 30px;\n            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);\n            border-left: 5px solid var(--morado);\n        }\n\n        .card-title {\n            font-size: 22px;\n            color: var(--azul-oscuro);\n            margin-bottom: 15px;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n        }\n\n        .flete-icon {\n            font-size: 14px;\n            color: var(--azul-oscuro);\n        }\n\n        p {\n            line-height: 1.6;\n            margin-bottom: 15px;\n            color: #555;\n        }\n\n        ul {\n            list-style-type: none;\n            padding-left: 0;\n        }\n\n        li {\n            padding: 8px 0;\n            border-bottom: 1px solid #eee;\n            display: flex;\n            justify-content: space-between;\n        }\n\n        li span {\n            font-weight: bold;\n            color: var(--morado);\n        }\n\n        .badge-video {\n            display: inline-block;\n            background-color: var(--azul-oscuro);\n            color: white;\n            padding: 5px 10px;\n            border-radius: 5px;\n            font-size: 12px;\n            text-decoration: none;\n            margin-top: 10px;\n        }\n\n        .badge-video:hover {\n            background-color: var(--morado);\n        }\n    </style>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>88c922d9-9428-48d5-b303-ed44703552ff</odePageId>
+      <odeBlockId>block-1780882841724-5xsr5ishe</odeBlockId>
+      <blockName>Componentes</blockName>
+      <iconName>geography</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>88c922d9-9428-48d5-b303-ed44703552ff</odePageId>
+          <odeBlockId>block-1780882841724-5xsr5ishe</odeBlockId>
+          <odeIdeviceId>idevice-1780882841723-y0iug5jsm</odeIdeviceId>
+          <odeIdeviceTypeName>image-gallery</odeIdeviceTypeName>
+          <htmlView><![CDATA[<!-- Idevice Example template start -->
+<div class="exe-image-gallery-template">
+  <!-- Idevice content start -->
+  
+            <div class="imageGallery-IDevice">
+                <div class="imageGallery-body"><div id="imageContainer_0" class="imageContainer"> <a idevice-id="idevice-1780882841723-y0iug5jsm" title="" href="{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 8.35.52 PM.jpeg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 8.35.52 PM.jpeg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_1" class="imageContainer"> <a idevice-id="idevice-1780882841723-y0iug5jsm" title="" href="{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 8.35.52 PM (1).jpeg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 8.35.52 PM (1).jpeg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_2" class="imageContainer"> <a idevice-id="idevice-1780882841723-y0iug5jsm" title="" href="{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 8.35.52 PM (2).jpeg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 8.35.52 PM (2).jpeg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_3" class="imageContainer"> <a idevice-id="idevice-1780882841723-y0iug5jsm" title="" href="{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 8.38.33 PM.jpeg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 8.38.33 PM.jpeg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_4" class="imageContainer"> <a idevice-id="idevice-1780882841723-y0iug5jsm" title="" href="{{context_path}}/content/resources/ULN2803APG.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/ULN2803APG.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_5" class="imageContainer"> <a idevice-id="idevice-1780882841723-y0iug5jsm" title="" href="{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 8.45.07 PM.jpeg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 8.45.07 PM.jpeg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div>
+                </div>
+            </div>
+  <!-- Idevice content end -->
+</div>
+<!-- Idevice Example template end -->]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1780882841723-y0iug5jsm","img_0":{"img":"{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 8.35.52 PM.jpeg","thumbnail":"{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 8.35.52 PM.jpeg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_1":{"img":"{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 8.35.52 PM (1).jpeg","thumbnail":"{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 8.35.52 PM (1).jpeg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_2":{"img":"{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 8.35.52 PM (2).jpeg","thumbnail":"{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 8.35.52 PM (2).jpeg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_3":{"img":"{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 8.38.33 PM.jpeg","thumbnail":"{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 8.38.33 PM.jpeg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_4":{"img":"{{context_path}}/content/resources/ULN2803APG.jpg","thumbnail":"{{context_path}}/content/resources/ULN2803APG.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_5":{"img":"{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 8.45.07 PM.jpeg","thumbnail":"{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 8.45.07 PM.jpeg","title":"","linktitle":"","author":"","linkauthor":"","license":""}}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>88c922d9-9428-48d5-b303-ed44703552ff</odePageId>
+      <odeBlockId>block-1780882728830-gtjp3dpl7</odeBlockId>
+      <blockName></blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>88c922d9-9428-48d5-b303-ed44703552ff</odePageId>
+          <odeBlockId>block-1780882728830-gtjp3dpl7</odeBlockId>
+          <odeIdeviceId>idevice-1780882728829-m5df7g4b3</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <div class="card">
+<div class="card-title">3. Lógica de Construcción (Motores Cruzados) <span class="flete-icon">▲</span></div>
+<p><span style="color: #000000;">Para que AltairBot siga la luz, se aplica una lógica<strong> inversa o cruzada</strong></span></p>
+<p><span style="color: #000000;">Un sensor óptico localizado en el lado <em>derecho</em> controla la activación del motor del lado <em>izquierdo, </em>esta permite que al recibir luz en un costado el robot gire automáticamente.</span></p>
+<p><span style="color: #000000;"><iframe width="300" height="150" src="https://www.youtube.com/embed/1L8gPlpK98o" allowfullscreen="allowfullscreen"></iframe></span></p>
+<span style="color: #ecf0f1;"><a href="https://youtu.be/1L8gPlpK98o" target="_blank" class="badge-video" rel="noopener" style="color: #ecf0f1;">Ver Proyecto en YouTube</a></span></div>
+<style>
+        /* Estilos Globales basados en la paleta de colores de la imagen */
+        :root {
+            --bg-principal: #f4f6fa;
+            --azul-oscuro: #232274;
+            --morado: #6e25ca;
+            --amarillo: #ffcc00;
+            --blanco: #ffffff;
+            --texto-oscuro: #333333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-principal);
+            color: var(--texto-oscuro);
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* --- MENÚ LATERAL (Sección Izquierda de la imagen) --- */
+        .sidebar {
+            width: 280px;
+            background-color: var(--azul-oscuro);
+            color: var(--blanco);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            border-top-right-radius: 20px;
+        }
+
+        .menu-header {
+            font-size: 20px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-menu {
+            width: 100%;
+            padding: 12px 15px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn-altair {
+            background-color: var(--amarillo);
+            color: var(--azul-oscuro);
+        }
+
+        .btn-construccion {
+            background-color: transparent;
+            color: var(--blanco);
+        }
+
+        .btn-construccion:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* --- CONTENIDO PRINCIPAL --- */
+        .main-content {
+            flex: 1;
+            padding: 40px;
+            overflow-y: auto;
+        }
+
+        .header-title {
+            text-align: center;
+            font-size: 32px;
+            color: var(--azul-oscuro);
+            margin-bottom: 40px;
+            font-weight: bold;
+        }
+
+        /* --- DIVISIÓN EN 3 PARTES --- */
+        .grid-container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .card {
+            background-color: var(--blanco);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border-left: 5px solid var(--morado);
+        }
+
+        .card-title {
+            font-size: 22px;
+            color: var(--azul-oscuro);
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .flete-icon {
+            font-size: 14px;
+            color: var(--azul-oscuro);
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        li span {
+            font-weight: bold;
+            color: var(--morado);
+        }
+
+        .badge-video {
+            display: inline-block;
+            background-color: var(--azul-oscuro);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .badge-video:hover {
+            background-color: var(--morado);
+        }
+    </style>
+<p></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1780882728829-m5df7g4b3","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<div class=\"card\">\n<div class=\"card-title\">3. Lógica de Construcción (Motores Cruzados) <span class=\"flete-icon\">▲</span></div>\n<p><span style=\"color: #000000;\">Para que AltairBot siga la luz, se aplica una lógica<strong> inversa o cruzada</strong></span></p>\n<p><span style=\"color: #000000;\">Un sensor óptico localizado en el lado <em>derecho</em> controla la activación del motor del lado <em>izquierdo, </em>esta permite que al recibir luz en un costado el robot gire automáticamente.</span></p>\n<p><span style=\"color: #000000;\"><iframe width=\"300\" height=\"150\" src=\"https://www.youtube.com/embed/1L8gPlpK98o\" allowfullscreen=\"allowfullscreen\"></iframe></span></p>\n<span style=\"color: #ecf0f1;\"><a href=\"https://youtu.be/1L8gPlpK98o\" target=\"_blank\" class=\"badge-video\" rel=\"noopener\" style=\"color: #ecf0f1;\">Ver Proyecto en YouTube</a></span></div>\n<style>\n        /* Estilos Globales basados en la paleta de colores de la imagen */\n        :root {\n            --bg-principal: #f4f6fa;\n            --azul-oscuro: #232274;\n            --morado: #6e25ca;\n            --amarillo: #ffcc00;\n            --blanco: #ffffff;\n            --texto-oscuro: #333333;\n        }\n\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n        }\n\n        body {\n            background-color: var(--bg-principal);\n            color: var(--texto-oscuro);\n            display: flex;\n            min-height: 100vh;\n        }\n\n        /* --- MENÚ LATERAL (Sección Izquierda de la imagen) --- */\n        .sidebar {\n            width: 280px;\n            background-color: var(--azul-oscuro);\n            color: var(--blanco);\n            padding: 20px;\n            display: flex;\n            flex-direction: column;\n            gap: 20px;\n            border-top-right-radius: 20px;\n        }\n\n        .menu-header {\n            font-size: 20px;\n            font-weight: bold;\n            display: flex;\n            align-items: center;\n            gap: 10px;\n            cursor: pointer;\n            padding-bottom: 20px;\n            border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n        }\n\n        .btn-menu {\n            width: 100%;\n            padding: 12px 15px;\n            border: none;\n            border-radius: 8px;\n            font-size: 16px;\n            font-weight: bold;\n            text-align: left;\n            cursor: pointer;\n            transition: all 0.3s;\n        }\n\n        .btn-altair {\n            background-color: var(--amarillo);\n            color: var(--azul-oscuro);\n        }\n\n        .btn-construccion {\n            background-color: transparent;\n            color: var(--blanco);\n        }\n\n        .btn-construccion:hover {\n            background-color: rgba(255, 255, 255, 0.1);\n        }\n\n        /* --- CONTENIDO PRINCIPAL --- */\n        .main-content {\n            flex: 1;\n            padding: 40px;\n            overflow-y: auto;\n        }\n\n        .header-title {\n            text-align: center;\n            font-size: 32px;\n            color: var(--azul-oscuro);\n            margin-bottom: 40px;\n            font-weight: bold;\n        }\n\n        /* --- DIVISIÓN EN 3 PARTES --- */\n        .grid-container {\n            display: flex;\n            flex-direction: column;\n            gap: 30px;\n        }\n\n        .card {\n            background-color: var(--blanco);\n            border-radius: 15px;\n            padding: 30px;\n            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);\n            border-left: 5px solid var(--morado);\n        }\n\n        .card-title {\n            font-size: 22px;\n            color: var(--azul-oscuro);\n            margin-bottom: 15px;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n        }\n\n        .flete-icon {\n            font-size: 14px;\n            color: var(--azul-oscuro);\n        }\n\n        p {\n            line-height: 1.6;\n            margin-bottom: 15px;\n            color: #555;\n        }\n\n        ul {\n            list-style-type: none;\n            padding-left: 0;\n        }\n\n        li {\n            padding: 8px 0;\n            border-bottom: 1px solid #eee;\n            display: flex;\n            justify-content: space-between;\n        }\n\n        li span {\n            font-weight: bold;\n            color: var(--morado);\n        }\n\n        .badge-video {\n            display: inline-block;\n            background-color: var(--azul-oscuro);\n            color: white;\n            padding: 5px 10px;\n            border-radius: 5px;\n            font-size: 12px;\n            text-decoration: none;\n            margin-top: 10px;\n        }\n\n        .badge-video:hover {\n            background-color: var(--morado);\n        }\n    </style>\n<p></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1780876032876-o951hhs49</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Construccion</pageName>
+  <odeNavStructureOrder>1</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Construccion</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1780876032876-o951hhs49</odePageId>
+      <odeBlockId>block-1780876066153-yvzx0rojw</odeBlockId>
+      <blockName>Construccion</blockName>
+      <iconName>interactive</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1780876032876-o951hhs49</odePageId>
+          <odeBlockId>block-1780876066153-yvzx0rojw</odeBlockId>
+          <odeIdeviceId>idevice-1780876066152-9g8pb519y</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><span style="color: #000000;">Un robot que es capaz de ver dónde hay luz como la linterna de un celular y seguirla por el piso automáticamente.</span></p>
+<div class="card" style="border-left-color: var(--amarillo);">
+<div class="step-list">
+<p><span style="color: #000000;">• <strong>Circuito ULN2803:</strong> Es un pequeño chip negro con patitas que recibe la señal de los sensores y le da fuerza a los motores para que se muevan sin complicaciones.</span></p>
+<p><span style="color: #000000;">• <strong>Fotorresistencias LDR:</strong> Son dos piezas pequeñas redondas de energía que dependiendo de cuánta luz hay pueda caminar más rápida o más lenta.</span></p>
+<p><span style="color: #000000;">• <strong>Motores y Ruedas:</strong> Dos motores para que el robot avance hacia adelante y gire.</span></p>
+<p><span style="color: #000000;">• <strong>Resistencias y Cables:</strong> Cables de colores rojo, negro conectados a los sensores y baterías para darle energía.</span></p>
+</div>
+</div>
+<div class="card">
+<h5 class="card-title"><span style="color: #000000;"><strong>Cómo se construyo paso a paso:</strong></span></h5>
+<p><span style="color: #000000;">Para mejorar la construcción del robot se realizó la organización de los cables para evitar conexiones sueltas y mejorar su funcionamiento en el robot además se propuso colocar una pequeña carcasa en la parte de adelante para proteger el sensor de luz así como cubrir el porta pilas con una tapa y colocar una rueda loca adelante para facilitar los movimientos y giros del carro.</span></p>
+<div class="step-list">
+<div class="step-item"><span style="color: #000000;"> Se coloco los dos sensores de luz apuntando hacia adelante uno a la derecha y otro a la izquierda cada uno se conecta al lado positivo de la batería y lleva una pequeña resistencia hacia el negativo para que el robot sepa cuándo está a oscuras y se quede quieto.</span><br /><br /><span style="color: #000000;">Hicimos un cruce y conectamos el sensor del lado derecho para que encienda el motor izquierdo y el sensor izquierdo para que encienda el motor derecho así cuando le apuntemos con luz a un lado el robot gire directo hacia ella, pusimos al AltairBot en el suelo, encendimos la linterna y el robot empezó a perseguir la luz aprendimos sobre la robótica, conexiones eléctricas y la importancia de la tecnología en la vida cotidiana.</span></div>
+</div>
+</div>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1780876066152-9g8pb519y","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><span style=\"color: #000000;\">Un robot que es capaz de ver dónde hay luz como la linterna de un celular y seguirla por el piso automáticamente.</span></p>\n<div class=\"card\" style=\"border-left-color: var(--amarillo);\">\n<div class=\"step-list\">\n<p><span style=\"color: #000000;\">• <strong>Circuito ULN2803:</strong> Es un pequeño chip negro con patitas que recibe la señal de los sensores y le da fuerza a los motores para que se muevan sin complicaciones.</span></p>\n<p><span style=\"color: #000000;\">• <strong>Fotorresistencias LDR:</strong> Son dos piezas pequeñas redondas de energía que dependiendo de cuánta luz hay pueda caminar más rápida o más lenta.</span></p>\n<p><span style=\"color: #000000;\">• <strong>Motores y Ruedas:</strong> Dos motores para que el robot avance hacia adelante y gire.</span></p>\n<p><span style=\"color: #000000;\">• <strong>Resistencias y Cables:</strong> Cables de colores rojo, negro conectados a los sensores y baterías para darle energía.</span></p>\n</div>\n</div>\n<div class=\"card\">\n<h5 class=\"card-title\"><span style=\"color: #000000;\"><strong>Cómo se construyo paso a paso:</strong></span></h5>\n<p><span style=\"color: #000000;\">Para mejorar la construcción del robot se realizó la organización de los cables para evitar conexiones sueltas y mejorar su funcionamiento en el robot además se propuso colocar una pequeña carcasa en la parte de adelante para proteger el sensor de luz así como cubrir el porta pilas con una tapa y colocar una rueda loca adelante para facilitar los movimientos y giros del carro.</span></p>\n<div class=\"step-list\">\n<div class=\"step-item\"><span style=\"color: #000000;\"> Se coloco los dos sensores de luz apuntando hacia adelante uno a la derecha y otro a la izquierda cada uno se conecta al lado positivo de la batería y lleva una pequeña resistencia hacia el negativo para que el robot sepa cuándo está a oscuras y se quede quieto.</span><br /><br /><span style=\"color: #000000;\">Hicimos un cruce y conectamos el sensor del lado derecho para que encienda el motor izquierdo y el sensor izquierdo para que encienda el motor derecho así cuando le apuntemos con luz a un lado el robot gire directo hacia ella, pusimos al AltairBot en el suelo, encendimos la linterna y el robot empezó a perseguir la luz aprendimos sobre la robótica, conexiones eléctricas y la importancia de la tecnología en la vida cotidiana.</span></div>\n</div>\n</div>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1780876032876-o951hhs49</odePageId>
+      <odeBlockId>block-1780794883052-8yrccbmmq</odeBlockId>
+      <blockName>Construcción del carro con sensores ( AltsirBot)</blockName>
+      <iconName>download</iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1780876032876-o951hhs49</odePageId>
+          <odeBlockId>block-1780794883052-8yrccbmmq</odeBlockId>
+          <odeIdeviceId>idevice-1780794883051-0gnykqkq7</odeIdeviceId>
+          <odeIdeviceTypeName>image-gallery</odeIdeviceTypeName>
+          <htmlView><![CDATA[<!-- Idevice Example template start -->
+<div class="exe-image-gallery-template">
+  <!-- Idevice content start -->
+  
+            <div class="imageGallery-IDevice">
+                <div class="imageGallery-body"><div id="imageContainer_0" class="imageContainer"> <a idevice-id="idevice-1780794883051-0gnykqkq7" title="" href="{{context_path}}/content/resources/material.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/material.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_1" class="imageContainer"> <a idevice-id="idevice-1780794883051-0gnykqkq7" title="" href="{{context_path}}/content/resources/ima.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/ima.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_2" class="imageContainer"> <a idevice-id="idevice-1780794883051-0gnykqkq7" title="" href="{{context_path}}/content/resources/imagen.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/imagen.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_3" class="imageContainer"> <a idevice-id="idevice-1780794883051-0gnykqkq7" title="" href="{{context_path}}/content/resources/cae.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/cae.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_4" class="imageContainer"> <a idevice-id="idevice-1780794883051-0gnykqkq7" title="" href="{{context_path}}/content/resources/carro.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/carro.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_5" class="imageContainer"> <a idevice-id="idevice-1780794883051-0gnykqkq7" title="" href="{{context_path}}/content/resources/ex.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/ex.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_6" class="imageContainer"> <a idevice-id="idevice-1780794883051-0gnykqkq7" title="" href="{{context_path}}/content/resources/po.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/po.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_7" class="imageContainer"> <a idevice-id="idevice-1780794883051-0gnykqkq7" title="" href="{{context_path}}/content/resources/cables colores.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/cables colores.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_8" class="imageContainer"> <a idevice-id="idevice-1780794883051-0gnykqkq7" title="" href="{{context_path}}/content/resources/carro.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/carro.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div>
+                </div>
+            </div>
+  <!-- Idevice content end -->
+</div>
+<!-- Idevice Example template end -->]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1780794883051-0gnykqkq7","img_0":{"img":"{{context_path}}/content/resources/material.jpg","thumbnail":"{{context_path}}/content/resources/material.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_1":{"img":"{{context_path}}/content/resources/ima.jpg","thumbnail":"{{context_path}}/content/resources/ima.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_2":{"img":"{{context_path}}/content/resources/imagen.jpg","thumbnail":"{{context_path}}/content/resources/imagen.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_3":{"img":"{{context_path}}/content/resources/cae.jpg","thumbnail":"{{context_path}}/content/resources/cae.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_4":{"img":"{{context_path}}/content/resources/carro.jpg","thumbnail":"{{context_path}}/content/resources/carro.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_5":{"img":"{{context_path}}/content/resources/ex.jpg","thumbnail":"{{context_path}}/content/resources/ex.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_6":{"img":"{{context_path}}/content/resources/po.jpg","thumbnail":"{{context_path}}/content/resources/po.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_7":{"img":"{{context_path}}/content/resources/cables colores.jpg","thumbnail":"{{context_path}}/content/resources/cables colores.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_8":{"img":"{{context_path}}/content/resources/carro.jpg","thumbnail":"{{context_path}}/content/resources/carro.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""}}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1780876032876-o951hhs49</odePageId>
+      <odeBlockId>block-1780878487095-o0rnxc9kj</odeBlockId>
+      <blockName>Antes/Después</blockName>
+      <iconName>perform</iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1780876032876-o951hhs49</odePageId>
+          <odeBlockId>block-1780878487095-o0rnxc9kj</odeBlockId>
+          <odeIdeviceId>idevice-1780878487093-m5lhdz334</odeIdeviceId>
+          <odeIdeviceTypeName>beforeafter</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="beforeafter-IDevice"><div class="beforeafter-instructions gameQP-instructions"><p>Desliza para revelar las diferencias entre las imágenes.</p></div><div class="beforeafter-DataGame js-hidden">{"typeGame":"BeforeAfter","author":"","instructions":"<p>Desliza para revelar las diferencias entre las imágenes.</p>","isScorm":0,"textButtonScorm":"Guardar la puntuación","repeatActivity":true,"itinerary":{"showClue":false,"clueGame":"","percentageClue":40,"showCodeAccess":false,"codeAccess":"","messageCodeAccess":""},"weighted":100,"cardsGame":[{"url":"{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 7.27.48 PM.jpeg","author":"","alt":"","eText":"Carrito con conecciones con chasis","urlBk":"{{context_path}}/content/resources/cae.jpg","authorBk":"","altBk":"","eTextBk":"Carrito Con conecciones sin chasis","description":"Construccion del chasis del carro","position":"50","vertical":false}],"textAfter":"","version":2,"evaluation":false,"evaluationID":"6e0c3dda-3159-4249-8951-05361c7923e7","id":"idevice-1780878487093-m5lhdz334","msgs":{"msgSubmit":"Enviar","msgClue":"¡Genial! La pista es:","msgCodeAccess":"Código de acceso","msgInformationLooking":"¡Genial! La información que estaba buscando","msgMinimize":"Minimizar","msgMaximize":"Maximizar","msgFullScreen":"Pantalla Completa","msgExitFullScreen":"Salir del modo pantalla completa","msgNoImage":"Pregunta sin imágenes","msgAuthor":"Autoría","msgAfterImage":"Imagen (después)","msgBeforeImage":"Imagen (antes)","msgNext":"Siguiente","msgPrevious":"Anterior","msgImage":"Imagen","msgScoreScorm":"La puntuación no se puede guardar porque esta página no forma parte  de un paquete SCORM.","msgQuestion":"Pregunta","msgOnlySaveScore":"¡Solo puede guardar la puntuación una vez!","msgOnlySave":"Solo puede guardar una vez","msgInformation":"Información","msgOnlySaveAuto":"Su puntuación se guardará después de cada pregunta. Solo puede jugar una vez.","msgSaveAuto":"Su puntuación se guardará automáticamente después de cada pregunta.","msgYouScore":"Su puntuación","msgSeveralScore":"Puede guardar la puntuación tantas veces como quiera","msgYouLastScore":"La última puntuación guardada es","msgActityComply":"Ya ha realizado esta actividad.","msgPlaySeveralTimes":"Puede realizar esta actividad cuantas veces quiera","msgUncompletedActivity":"Actividad no completada","msgSuccessfulActivity":"Actividad superada. Puntuación: %s","msgUnsuccessfulActivity":"Actividad no superada. Puntuación: %s","msgTypeGame":"Antes/Después","msgPlayStart":"Pulsa aquí para jugar"}}</div><a href="{{context_path}}/content/resources/WhatsApp Image 2026-06-07 at 7.27.48 PM.jpeg" class="js-hidden beforeafter-LinkImages">0</a><a href="{{context_path}}/content/resources/cae.jpg" class="js-hidden beforeafter-LinkImagesBack">0</a><div class="game-evaluation-ids js-hidden" data-id="idevice-1780878487093-m5lhdz334" data-evaluationb="false" data-evaluationid="6e0c3dda-3159-4249-8951-05361c7923e7"></div><div class="beforeafter-bns js-hidden">Su navegador no es compatible con esta herramienta.</div></div>]]></htmlView>
+          <jsonProperties></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1780876210887-rhv3o7twc</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Utilidad con las matematicas</pageName>
+  <odeNavStructureOrder>2</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Utilidad con las matematicas</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1780876210887-rhv3o7twc</odePageId>
+      <odeBlockId>block-1780852406275-efn5ebxp0</odeBlockId>
+      <blockName>Matemáticas</blockName>
+      <iconName>think_alt</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1780876210887-rhv3o7twc</odePageId>
+          <odeBlockId>block-1780852406275-efn5ebxp0</odeBlockId>
+          <odeIdeviceId>idevice-1780852406273-ff6m0t4wu</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><span style="color: #000000;"><strong>¿Cómo se relaciona las matemáticas en el robot?</strong> <span style="color: #843fa1;"><em><strong>( AltairBot )</strong></em></span></span></p>
+<p><span style="color: #000000;">Las matemáticas estan presentes en el diseño, construcción y funcionamiento del robot seguidor de luz se utilizan para realizar mediciones, calcular distancias, organizar los componentes, analizar datos y comprender cómo se mueve el robot gracias a las matemáticas es posible determinar el tamaño del chasis, la ubicación de los sensores y la velocidad de desplazamiento.</span></p>
+<p><span style="color: #000000;"><strong>Se puede relacionar con:</strong></span></p>
+<p><span style="color: #000000;"><span style="color: #e03e2d;">Geometría</span>: para medir el chasis, calcular áreas y ubicar correctamente los materiales puestos para representar relaciones entre variables como velocidad, tiempo y distancia</span><br /><span style="color: #000000;"><span style="color: #e03e2d;">Proporciones</span>: para comparar tamaños, longitudes y consumo de energía</span><br /><span style="color: #000000;"><span style="color: #e03e2d;">Funciones</span>: para analizar cómo cambia el movimiento del robot según la intensidad de la luz</span><br /><span style="color: #000000;"><span style="color: #e03e2d;">Medidas</span>: para trabajar con centímetros, metros y voltios</span></p>
+<p><span style="color: #000000;">Ejemplo:</span></p>
+<p><span style="color: #000000;">Si el robot recorre 60 cm en 6 segundos su velocidad es de 10 cm por segundo </span></p>
+<p><span style="color: #000000;">Si el chasis mide 20 cm de largo y 16 cm de ancho su área es de 320cm </span></p>
+<p><span style="color: #000000;">Si en las pruebas el robot sigue correctamente la luz, su efectividad es del 80% si tiene una carga del 100% y después de varias pruebas queda en el 70%  de su batería.</span></p>
+<p><span style="color: #000000;">En elcalculo del voltaje si se ocupa 4 pilas de 1.5 voltios conectadas en serie... el voltaje se suma lo que le da al robor un voltaje principal de 6v. </span></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1780852406273-ff6m0t4wu","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><span style=\"color: #000000;\"><strong>¿Cómo se relaciona las matemáticas en el robot?</strong> <span style=\"color: #843fa1;\"><em><strong>( AltairBot )</strong></em></span></span></p>\n<p><span style=\"color: #000000;\">Las matemáticas estan presentes en el diseño, construcción y funcionamiento del robot seguidor de luz se utilizan para realizar mediciones, calcular distancias, organizar los componentes, analizar datos y comprender cómo se mueve el robot gracias a las matemáticas es posible determinar el tamaño del chasis, la ubicación de los sensores y la velocidad de desplazamiento.</span></p>\n<p><span style=\"color: #000000;\"><strong>Se puede relacionar con:</strong></span></p>\n<p><span style=\"color: #000000;\"><span style=\"color: #e03e2d;\">Geometría</span>: para medir el chasis, calcular áreas y ubicar correctamente los materiales puestos para representar relaciones entre variables como velocidad, tiempo y distancia</span><br /><span style=\"color: #000000;\"><span style=\"color: #e03e2d;\">Proporciones</span>: para comparar tamaños, longitudes y consumo de energía</span><br /><span style=\"color: #000000;\"><span style=\"color: #e03e2d;\">Funciones</span>: para analizar cómo cambia el movimiento del robot según la intensidad de la luz</span><br /><span style=\"color: #000000;\"><span style=\"color: #e03e2d;\">Medidas</span>: para trabajar con centímetros, metros y voltios</span></p>\n<p><span style=\"color: #000000;\">Ejemplo:</span></p>\n<p><span style=\"color: #000000;\">Si el robot recorre 60 cm en 6 segundos su velocidad es de 10 cm por segundo </span></p>\n<p><span style=\"color: #000000;\">Si el chasis mide 20 cm de largo y 16 cm de ancho su área es de 320cm </span></p>\n<p><span style=\"color: #000000;\">Si en las pruebas el robot sigue correctamente la luz, su efectividad es del 80% si tiene una carga del 100% y después de varias pruebas queda en el 70%  de su batería.</span></p>\n<p><span style=\"color: #000000;\">En elcalculo del voltaje si se ocupa 4 pilas de 1.5 voltios conectadas en serie... el voltaje se suma lo que le da al robor un voltaje principal de 6v. </span></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1780876210887-rhv3o7twc</odePageId>
+      <odeBlockId>block-1780882410323-5k508phz3</odeBlockId>
+      <blockName>Funcionamiento del robot</blockName>
+      <iconName>video</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1780876210887-rhv3o7twc</odePageId>
+          <odeBlockId>block-1780882410323-5k508phz3</odeBlockId>
+          <odeIdeviceId>idevice-1780882410322-scrr6lkeh</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p style="text-align: center;"><video width="560" height="315" controls="controls" autoplay="autoplay" muted="muted">
+<source src="{{context_path}}/content/resources/WhatsApp Video 2026-06-07 at 8.28.52 PM.mp4" type="video/mp4" /></video></p>
+<p><br /></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1780882410322-scrr6lkeh","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p style=\"text-align: center;\"><video width=\"560\" height=\"315\" controls=\"controls\" autoplay=\"autoplay\" muted=\"muted\">\n<source src=\"{{context_path}}/content/resources/WhatsApp Video 2026-06-07 at 8.28.52 PM.mp4\" type=\"video/mp4\" /></video></p>\n<p><br /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+</odeNavStructures>
+</ode>
